@@ -26,7 +26,3 @@ Capybara.javascript_driver = :webkit
 #     DatabaseCleaner.strategy = :transaction
 #   end
 #
-
-After do |scenario|
-  puts "After body from within Rails app: #{page.body}"
-end

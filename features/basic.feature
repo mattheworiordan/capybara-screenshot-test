@@ -6,7 +6,6 @@ Feature: Basic
   Scenario: Create a new backlog with Rack
     Given I am on the Rack page
     Then I should see the text "Rack"
-    Then show me the page
     When I follow "link does not exist"
 
   @selenium

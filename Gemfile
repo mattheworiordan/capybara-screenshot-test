@@ -9,7 +9,7 @@ group :test do
   gem 'cucumber-rails'
   gem 'capybara'
   gem 'capybara-webkit'
-  gem 'capybara-screenshot', '~>0.0.2'
+  gem 'capybara-screenshot', '~>0.1'
   gem 'rspec'
 end
 
